@@ -1,0 +1,13 @@
+# Ignore all hidden files and directories
+.*
+# But allow .gitignore itself if needed (common practice)
+!.gitignore
+# Python specific ignores (additional to the above)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.mypy_cache/
+.pytest_cache/
